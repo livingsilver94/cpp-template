@@ -1,18 +1,7 @@
-AccessModifierOffset: -2
-AlignAfterOpenBracket: AlwaysBreak
-AlignConsecutiveAssignments: true
-AlignConsecutiveMacros: true
-AllowAllArgumentsOnNextLine: false
-AllowShortCaseLabelsOnASingleLine: true
+---
 BasedOnStyle: Chromium
-BinPackArguments: false
-BinPackParameters: false
-BreakConstructorInitializers: AfterColon
-ColumnLimit: 110
-ContinuationIndentWidth: 2
+ColumnLimit: 0
 IncludeBlocks: Regroup
-IndentWidth: 4
-Language: Cpp
-SpaceBeforeCpp11BracedList: true
-TabWidth: 4
-UseTab: ForIndentation
+SpacesBeforeTrailingComments: 1
+
+...
