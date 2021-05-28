@@ -13,3 +13,8 @@ add_subdirectory(src)
 if(CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME AND BUILD_TESTING)
     add_subdirectory(test)
 endif()
+
+option(ENABLE_CLANG_TIDY "Enable static analysis with clang-tidy using project's settings" OFF)
+if(ENABLE_CLANG_TIDY)
+    set(CMAKE_CXX_CLANG_TIDY "clang-tidy")
+endif()
